@@ -8,4 +8,4 @@ install: "pip install -r requirements.txt"
 before_script:
   - chmod +x manage.py
 script:
-- ./manage.py test
+- python manage.py test
