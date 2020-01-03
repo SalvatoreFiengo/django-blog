@@ -5,6 +5,7 @@ jobs:
       dist: xenial
 install: 
   - "pip install -r requirements.txt"
+  - "pip install Pillow"
   - "pip install django-forms-bootstrap"
 env:
   - DJANGO=1.11.24
