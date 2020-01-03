@@ -4,6 +4,7 @@ jobs:
     - python: "3.7"
       dist: xenial
 install: "pip install -r requirements.txt"
+  - "pip install django-forms-bootstrap"
 env:
   - DJANGO=1.11.24
 before_script:
